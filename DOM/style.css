@@ -1,0 +1,21 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    color: #414141;
+    text-align: center;
+}
+h2{
+    color: #333333;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    color: white;
+    background-color: blue;
+     display: block;
+    margin: 0 auto;
+}
