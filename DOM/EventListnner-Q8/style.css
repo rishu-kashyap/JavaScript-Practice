@@ -1,8 +1,13 @@
-#download_capsule{
-    position: absolute;
+#center{
+     position: absolute;
     top: 50% ;
     left: 50%;
     transform: translate(-50%,-50%);
+
+}
+
+#download_capsule{
+   
     width: 300px;
     height: 10px;
     background-color: #dadada;
@@ -10,9 +15,14 @@
 }
 
 #progress{
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .2s;
     width: 10%;
     height: 100%;
     border-radius: 100px;
     background-color: rgb(80, 208, 80);
 
+}
+
+#center h3{
+    opacity: 0;
 }
