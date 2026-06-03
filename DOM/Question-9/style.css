@@ -1,0 +1,10 @@
+textarea{
+    font-weight:  500;
+    width: 400px;
+    height: 130px;
+    font-size: 18px;
+    border: 1px solid#dadada;
+    outline-color: royalblue;
+    resize: none;
+    padding: 10px  ;
+}
